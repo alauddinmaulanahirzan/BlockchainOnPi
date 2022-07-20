@@ -1,0 +1,8 @@
+#BlockchainonPi
+Blockchain fundamental codes and script. Used for future research ideas with Internet of Things and Blockchain.
+Requires:
+- Python 3 (3.9.2 is used in this project. Compatible with Miniconda and Debian 11 Raspberry Pi)
+- Firebase
+- Firebase SDK via firebase_admin==5.2.0 (pip)
+- RSA Cryptography via pycryptodome==3.14.1 (pip)
+- psutil (optional)
