@@ -7,6 +7,10 @@ hostname = os.uname().nodename
 bitsize = 4096
 
 def genKeys():
+    folder = os.path.exists("keys")
+    if(folder == True):
+        os.mkdir("keys")
+        
     print(f"==> Generating {bitsize}-bit RSA Keys",end="",flush=True)
     keyPair = RSA.generate(bitsize)
     pubKey = keyPair.publickey()
