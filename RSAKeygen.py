@@ -8,7 +8,7 @@ bitsize = 4096
 
 def genKeys():
     folder = os.path.exists("keys")
-    if(folder == True):
+    if(folder == False):
         os.mkdir("keys")
         
     print(f"==> Generating {bitsize}-bit RSA Keys",end="",flush=True)
